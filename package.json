@@ -2,10 +2,14 @@
   "name": "youtube",
   "version": "1.0.0",
   "description": "Backend at chai aur code",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon sre/index.js"
   },
   "author": "\"Aditya Gupta\"",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
